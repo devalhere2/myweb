@@ -5,7 +5,7 @@
 
 <nav>
     <div style="flex: 1; display: flex; align-items: center;">
-        <div class="web-name">myweb</div>
+        <div class="web-name">ripbroker</div>
     </div>
     <div style="display: flex; margin: 0 10vw; align-items: center;">
         <div class="search-bar" >
