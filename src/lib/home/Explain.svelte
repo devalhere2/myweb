@@ -9,8 +9,11 @@
         <div style="width: 4%;"></div>
         <div style="width: 48%; display: flex; align-items: center;">
             <div style="display: flex; flex-direction: column;">
-                <div style="font-size: 18px; display: inline; font-weight: bold; color:darkslategrey">
-                    Find Homes & Properties near you and that too Free for ever 
+                <div style="font-size: 24px; padding: 10px 0px; display: inline; font-weight: bold; color:darkslategrey">
+                    Find Your Perfect Space
+                </div>
+                <div style="font-size: 16px; display: inline; font-weight: bold; color:darkslategrey">
+                    Zero Fees, Zero Hassles, Zero Brokers
                 </div>
                 <div style="padding: 10px 0px;">
                     <button class="explore">
@@ -25,11 +28,10 @@
     </div>
 </section>
 
-
 <style>
     .explain{
         height: 60vh;
-        background-color: rgba(224, 255, 255, 0.25);
+        background-color: rgba(153, 255, 255, 0.5);
         display: flex;
         justify-content: center;
     }
@@ -40,13 +42,13 @@
     }
 
     .explore {
-        background-color: lightcyan;
+        background-color: rgba(224, 255, 255, 1);
         width: 200px; 
         font-size: 16px;
         font-weight: bold;
         color: green;
         height: 36px; 
-        border-radius: 16px; 
+        border-radius: 18px; 
         border: 2px solid green;
         display: flex; /* Use flexbox */
         align-items: center;
