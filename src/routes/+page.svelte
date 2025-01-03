@@ -1,13 +1,13 @@
 <script>
     import Explain from "$lib/home/Explain.svelte";
     import Secure from "$lib/home/Secure.svelte";
-    import Sponser from "$lib/home/Sponser.svelte";
+    import Sponsor from "$lib/home/Sponsor.svelte";
 </script>
 
 <main>
     <Explain />    
     <Secure />
-    <Sponser />
+    <Sponsor />
 </main>
 
 <style>
