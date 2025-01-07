@@ -68,7 +68,6 @@
 <style>
     .explain {
         height: 60vh;
-        background-color: rgba(153, 255, 255, 0.5);
         display: flex;
         justify-content: center;
     }
@@ -79,7 +78,7 @@
     }
 
     .explore {
-        background-color: rgba(224, 255, 255, 1);
+        background-color: rgb(230, 255, 224,0.5);
         width: 200px;
         font-size: 16px;
         font-weight: bold;

@@ -21,7 +21,7 @@
 <style>
     .secure{
         height: 40vh;
-        background-color: rgba(255, 255, 0, 0.5);
+        background-color: rgba(255, 255, 0, 0.05);
         display: flex;
         justify-content: center;
     }
@@ -31,10 +31,9 @@
         height: 100%;
     }
     .text {
-        font-size: 18px; 
+        font-size: 20px; 
         display: inline; 
         font-weight: bold; 
-        color:darkslategrey;
         padding: 10px 0px;
     }
     .works {

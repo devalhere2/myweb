@@ -8,7 +8,7 @@
         <div style="width: 4%;"></div>
         <div style="width: 76%; display: flex; align-items: center;">
             <div style="display: flex; flex-direction: column;">
-                <div style="font-size: 18px; padding: 10px 0px; display: inline; font-weight: bold; color:darkgreen">
+                <div class="text">
                     This platform will remain free for individual users. As developers, our priority is creating value, not maximizing profits.
                 </div>
                 <a href="/" class="works">Find out how do we manage it.</a>
@@ -32,7 +32,6 @@
 <style>
     .sponsor{
         height: 40vh;
-        background-color: rgba(0, 255, 0, 0.5);
         display: flex;
         justify-content: center;
     }
@@ -41,9 +40,15 @@
         width: 90%;
         height: 100%;
     }
-
+    .text {
+        font-size: 18px; 
+        padding: 10px 0px; 
+        display: inline; 
+        font-weight: bold; 
+        color:darkgreen
+    }
     .sponsor-button {
-        background-color: rgb(255, 215, 252);
+        background-color: rgb(255, 215, 252,0.1);
         width: 200px; 
         font-size: 16px;
         font-weight: bold;
@@ -62,7 +67,7 @@
     }
 
     .contact-button {
-        background-color: rgb(255, 251, 190);
+        background-color: rgb(255, 251, 190,0.1);
         width: 200px; 
         font-size: 16px;
         font-weight: bold;
